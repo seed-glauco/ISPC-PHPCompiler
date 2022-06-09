@@ -1,4 +1,4 @@
-# 🚀 The PHP Compiler Script ![.github/workflows/compile-tests.yml](https://github.com/SergiX44/ISPC-PHPCompiler/workflows/.github/workflows/compile-tests.yml/badge.svg)
+# 🚀 The PHP Compiler Script ![.github/workflows/compile-tests.yml](https://github.com/seed-glauco/ISPC-PHPCompiler/workflows/.github/workflows/compile-tests.yml/badge.svg)
 
 This script will help you to manage different PHP version for your webserver (especially made for ISPConfig installations). 
 This supports **auto compiling and auto configure feature** with a **very high optimization level** (`-O3` `-march=native` `-mtune=native` flags) for PHP >= 5.6. See the versions.sh file to see them.
@@ -8,7 +8,7 @@ At every launch a new version of the `versions.sh` file is imported from this re
 # How to use
 Just run this command in your shell to download and run the script, and then just follow the instruction on your screen:
 ```bash
-wget https://raw.githubusercontent.com/SergiX44/ISPC-PHPCompiler/bash-version/php-compiler.sh; chmod +x php-compiler.sh; bash php-compiler.sh
+wget https://raw.githubusercontent.com/seed-glauco/ISPC-PHPCompiler/bash-version/php-compiler.sh; chmod +x php-compiler.sh; bash php-compiler.sh
 ```
 # Currently supported platforms
 | OS \ PHP     	| 5.6 	| 7.0 	| 7.1 	| 7.2 	| 7.3 	| 7.4 	| 8.0 	| 8.1 	|
